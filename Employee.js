@@ -1,4 +1,4 @@
-//polymorphism
+//polymorphism parent class
 export class Employee
 {
     constructor(empID,empName)
