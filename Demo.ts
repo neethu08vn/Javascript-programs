@@ -26,3 +26,12 @@ let fruits:String[] = ["Apple","Mango","Orange"]
 let marks:number[]=[85,80,75]
 console.log(fruits)
 console.log(marks)
+
+//Type script object
+const student :{name:String, age:number, isStudent:Boolean}={name:"Neethu", age:20, isStudent:true}
+console.log(student.name)
+student.name="Anu";
+(student as any).gender = "Female"
+console.log(student)
+
+
